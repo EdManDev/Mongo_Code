@@ -1,0 +1,11 @@
+	const products = await Product.aggregate([
+		{
+			$group: {
+				_id: "$_id",
+				name: { $last: "$name" },
+				countInStock: { $sum: "$countInStock" },
+				numReviews: { $sum: "$numReviews" },
+				price: { $sum: "$price" },
+			},
+		},
+	]);

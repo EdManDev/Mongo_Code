@@ -9,6 +9,7 @@ mongodb://localhost:27017/?readPreference=primary&appname=MongoDB%20Compass&dire
 ```t
 
 LINUX
+
 ```t
 mongodb://mongo:mongo@localhost:27017?authSource=admin
 ```t

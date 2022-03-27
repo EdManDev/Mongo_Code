@@ -15,7 +15,7 @@ LINUX:
 ```
 
 -------------------------------------------------------------------------
-.ENV (dotenv)
+.env (dotenv)
 
 ``` t
   DATABASE_NAME=<Database_Name>

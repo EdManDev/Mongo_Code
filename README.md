@@ -14,6 +14,11 @@ LINUX:
   mongodb://mongo:mongo@localhost:27017?authSource=admin
 ```
 
+``` t
+  sudo apt-get update
+  sudo apt-get install -y mongodb-org-shell
+```
+
 -------------------------------------------------------------------------
 .env (dotenv)
 

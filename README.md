@@ -1,14 +1,14 @@
 # Some mongo db code
 
 
-localhost SRV: 
+localhost SRV : 
 
-WINDOWS
+WINDOWS:
 ``` t
   mongodb://localhost:27017/?readPreference=primary&appname=MongoDB%20Compass&directConnection=true&ssl=false
 ```
 
-LINUX
+LINUX:
 
 ``` t
   mongodb://mongo:mongo@localhost:27017?authSource=admin
@@ -26,7 +26,7 @@ LINUX
 ```
 
 ---
-STRAPI LOCAL MONGO DB LOCAL
+STRAPI LOCAL MONGO DB LOCAL :
 
 ``` t
   module.exports = ({ env }) => ({
@@ -52,7 +52,7 @@ STRAPI LOCAL MONGO DB LOCAL
   
 ```
 
-STRAPI LOCAL MONGO DB CLOUD
+STRAPI LOCAL MONGO DB CLOUD :
 
 ``` t
 
